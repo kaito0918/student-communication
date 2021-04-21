@@ -1,0 +1,112 @@
+.home { 
+  min-height: 100%;
+    .top-block {
+      position: relative;
+
+      .home__image {
+        width: 100%;
+      }
+        
+      .welcome-to-japan {
+        position: absolute;
+        top: 620px;
+        left: 200px;
+        font-size: 150px;
+        color: white;
+      }
+
+      .international {
+        position: absolute;
+        top: 800px;
+        left: 280px;
+        font-size: 150px;
+        color: white;
+      }
+
+      .student {
+        position: absolute;
+        top: 980px;
+        left: 880px;
+        font-size: 150px;
+        color: white;
+      }
+    }
+    
+  .l-login-header {
+    width: 90%;
+    height: 100px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    background-color: #FF9872;
+    background: rgba(7, 7, 7, 0.7);
+
+    .transfer-mypage {
+      display: block;
+      position: absolute;
+      top: 25px;
+      left: 10px;
+
+      .logo-mark {
+        width: 202px;
+        height: 50px;
+        margin-left: 45px;
+      }
+    }
+    
+    .navigation {
+      height: 100px;
+
+        .nav-list {
+          font-size: 30px;
+          display: flex;
+          color: white;
+          list-style: none;
+          justify-content: flex-end;
+          margin-right: 2%;
+          width: 900px;
+          margin-left: 40%;
+          height: 100px;
+          justify-content: space-between;
+          margin-top: 25px;
+
+          .top-page {
+            color: #009d80;
+            position: relative;
+            display: block;
+            height: 100px;
+          }
+
+          .registraition {
+            color: #009d80;
+            position: relative;
+            display: block;
+          }
+
+          .my-page {
+            color: #009d80;
+            position: relative;
+            display: block;
+          }
+
+          .login-page {
+            color: #009d80;
+            position: relative;
+            display: block;
+          }
+        }
+      }
+    }
+
+  }
+
+    
+    
+      // .login-nav-top {
+      //   position: relative;
+      //   // top: 25px;
+      //   .login-nav__heading {
+          
+      //   }
+      // }
