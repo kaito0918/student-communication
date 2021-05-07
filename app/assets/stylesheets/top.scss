@@ -1,112 +1,158 @@
 .home { 
   min-height: 100%;
-    .top-block {
-      position: relative;
+  position: relative;
+  .about-block {
+    position: relative;
+    .about-image {
+      width: 100%;
+    }
+
+    .about-script1 {
+      position: absolute;
+      top: 500px;
+      color: white;
+      left: 300px;
+      font-size: 70px;
+    }
+
+    .about-script2 {
+      position: absolute;
+      top: 700px;
+      color: white;
+      left: 300px;
+      font-size: 70px;
+    }
+  }
+  .top-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .registration {
+      position: absolute;
+      top: 1100px;
+      left: 670px;
+      font-size: 50px;
+      color: #FF570D;
+    }
+
+    .registration-block {
+      background: rgba(#009d80, 0.7);
+      height: 100px;
+      width: 500px;
+      position: absolute;
+      top: 1125px;
+      left: 620px;
+    }
 
       .home__image {
-        width: 100%;
+      width: 100%;
       }
-        
-      .welcome-to-japan {
-        position: absolute;
-        top: 620px;
-        left: 200px;
-        font-size: 150px;
-        color: white;
-      }
-
-      .international {
-        position: absolute;
-        top: 800px;
-        left: 280px;
-        font-size: 150px;
-        color: white;
-      }
-
-      .student {
-        position: absolute;
-        top: 980px;
-        left: 880px;
-        font-size: 150px;
-        color: white;
-      }
-    }
-    
-  .l-login-header {
-    width: 90%;
-    height: 100px;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 30px;
-    background-color: #FF9872;
-    background: rgba(7, 7, 7, 0.7);
-
-    .transfer-mypage {
-      display: block;
+      
+    .welcome-to-japan {
       position: absolute;
-      top: 25px;
-      left: 10px;
+      top: 450px;
+      left: 200px;
+      font-size: 150px;
+      color: white;
+    }
 
-      .logo-mark {
-        width: 202px;
-        height: 50px;
-        margin-left: 45px;
-      }
+    .international {
+      position: absolute;
+      top: 623px;
+      left: 280px;
+      font-size: 150px;
+      color: white;
+    }
+
+    .student {
+      position: absolute;
+      top: 800px;
+      left: 880px;
+      font-size: 150px;
+      color: white;
     }
     
-    .navigation {
-      height: 100px;
+  }
+  
+.l-login-header {
+  width: 90%;
+  height: 100px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+  background: rgba(7, 7, 7, 0.7);
 
-        .nav-list {
-          font-size: 30px;
-          display: flex;
-          color: white;
-          list-style: none;
-          justify-content: flex-end;
-          margin-right: 2%;
-          width: 900px;
-          margin-left: 40%;
+  .transfer-mypage {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+
+    .logo-mark {
+      width: 202px;
+      height: 50px;
+      margin-left: 45px;
+    }
+  }
+  
+  .navigation {
+    height: 100px;
+
+      .nav-list {
+        font-size: 30px;
+        display: flex;
+        color: white;
+        list-style: none;
+        justify-content: flex-end;
+        margin-right: 2%;
+        width: 900px;
+        margin-left: 40%;
+        height: 100px;
+        justify-content: space-between;
+        margin-top: 25px;
+
+        .top-page {
+          color: #009d80;
+          position: relative;
+          display: block;
           height: 100px;
-          justify-content: space-between;
-          margin-top: 25px;
+        }
 
-          .top-page {
-            color: #009d80;
-            position: relative;
-            display: block;
-            height: 100px;
-          }
+        .registraition {
+          color: #009d80;
+          position: relative;
+          display: block;
+        }
 
-          .registraition {
-            color: #009d80;
-            position: relative;
-            display: block;
-          }
+        .my-page {
+          color: #009d80;
+          position: relative;
+          display: block;
+        }
 
-          .my-page {
-            color: #009d80;
-            position: relative;
-            display: block;
-          }
-
-          .login-page {
-            color: #009d80;
-            position: relative;
-            display: block;
-          }
+        .login-page {
+          color: #009d80;
+          position: relative;
+          display: block;
         }
       }
-    }
-
+  }
+}
+.footer{
+  width: 100%;
+  background-color: black;
+  .privacy-and-term-of-use{
+    color: #fff;
   }
 
-    
-    
-      // .login-nav-top {
-      //   position: relative;
-      //   // top: 25px;
-      //   .login-nav__heading {
-          
-      //   }
-      // }
+  .security {
+    color: #fff;
+  }
+  
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+}
+}
