@@ -82,7 +82,9 @@
   left: 50%;
   transform: translateX(-50%);
   top: 30px;
-  background: rgba(7, 7, 7, 0.7);
+  background: rgba(252, 249, 249, 0.7);
+  border-bottom: 0.5px solid rgba(0,0,0,0.1);
+  opacity: 0.95;
 
   .transfer-mypage {
     display: block;

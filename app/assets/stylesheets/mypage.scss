@@ -1,5 +1,31 @@
-.home2 {
-  width: 10px;
-  height: 10px;
-  background-color: green;
+.mypage-container {
+  position: relative;
+
+  .image-block {
+    height: 450px;
+    background-color: palegoldenrod;
+
+    .background-image-block {
+      width: 800px;
+      height: 410px;
+      position: absolute;
+      top: 15px;
+      left: 550px;
+      background-color: white;
+      .myimage-change {
+        width: 400px;
+        height: 380px;
+        position: absolute;
+        left: 200px;
+        top: 20px;
+      }
+      .fas.fa-camera.fa-3x {
+        position: absolute;
+        top: 340px;
+        left: 500px;
+      }
+    
+    }
+  }
 }
+    
