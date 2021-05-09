@@ -1,5 +1,6 @@
 .mypage-container {
   position: relative;
+  width: 100%;
 
   .image-block {
     height: 450px;
@@ -12,6 +13,7 @@
       top: 15px;
       left: 550px;
       background-color: white;
+
       .myimage-change {
         width: 400px;
         height: 380px;
@@ -19,6 +21,7 @@
         left: 200px;
         top: 20px;
       }
+
       .fas.fa-camera.fa-3x {
         position: absolute;
         top: 340px;
@@ -27,5 +30,23 @@
     
     }
   }
+
+  .first-self-introduction-block {
+    height: 200px;
+    .my-name {
+      height: 100px;
+      font-size: 45px;
+      text-align: center;
+      border: solid;
+      margin-bottom: 10px;
+    }
+    .one-word-comment{
+      height: 100px;
+      font-size: 30px;
+      text-align: center;
+      border: solid;
+    }
+  }
+    
 }
     
