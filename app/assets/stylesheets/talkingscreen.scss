@@ -1,0 +1,81 @@
+.talk-background  {
+  height: 600px;
+  width: 50%;
+
+  .search-header {
+    height: 100px;
+    background-color:rgb(31, 171, 196);
+    position: relative;
+    .search-header__name-block {
+      position: absolute;
+      top: 14px;
+      left: 20px;
+      height: 70px;
+      width: 120px;
+      background-color:rgb(232, 238, 240);
+      .search-header__name-block__display {
+        display: flex;
+        width: 35px;
+        height: 70px;
+        .search-header__name-block__display__mark {
+          font-size: 40px;
+        }
+        .search-header__name-block__display__name {
+          font-size: 40px;
+        }
+      }
+    }
+    .search-header__heading-name {
+      width: 500px;
+      height: 70px;
+      position: absolute;
+      top: 14px;
+      left: 20px;
+      background-color: white;
+      margin-left: 300px;
+      .search-header__heading-name__searching-message {
+
+      }
+    }
+      
+  }
+  .talk-place {
+    height: 100%;
+    background-color: #eee;
+    position: relative;
+    .talk-place__message1 {
+      height: 80px;
+      position: absolute;
+      top: 20px;
+      width: 700px;
+      .talk-place__message1__icon1-block {
+        position: relative;
+        .talk-place__message1__icon1-block__url {
+          position: absolute;
+          top: 5px;
+          left: 20px;
+          width: 70px;
+          height: 70px;
+        }
+      }
+      .talk-place__message1__speech-balloon-block {
+        width: 500px;
+        height: 70px;
+        position: absolute;
+        left: 100px;
+        top: 5px;
+        border: 2px solid #13178E;
+        border-radius: 30px 30px 30px 0px;
+        background: #fff;
+        .talk-place__message1__speech-balloon-block__style {
+          width: 450px;
+          position: absolute;
+          left: 10px;
+          top: 20px;
+          font-size: 30px;
+        }
+      }
+    }
+    }
+
+}
